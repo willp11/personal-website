@@ -1,0 +1,54 @@
+.Skill {
+    width: 720px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px auto;
+    padding: 10px 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px #1f2933;
+    background-color: white;
+}
+
+.Skill p {
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+
+.SkillImgAndHeading {
+    width: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.SkillImgWrapper {
+    width: 40px;
+}
+.SkillImgWrapper img {
+    padding-right: 5px;
+    margin: 0 auto;
+}
+
+.SkillHeadingWrapper {
+    width: 120px;
+    box-sizing: border-box;
+    padding-right: 5px;
+}
+
+.SkillDescWrapper {
+    width: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+    .Skill {
+        width: 80vw;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .SkillDescWrapper {
+        width: 100%;
+    }
+}

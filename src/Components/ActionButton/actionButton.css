@@ -1,0 +1,18 @@
+.ActionButton {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 1px 1px #36454f;
+    cursor: pointer;
+    background-color: #ad0303;
+    color: white;
+}
+
+.ActionButton:hover {
+    color: #ad0303;
+    background-color: white;
+    transition: 0.3s;
+    font-weight: bold;
+}

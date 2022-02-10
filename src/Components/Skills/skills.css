@@ -1,0 +1,21 @@
+.Skills {
+    width: 100vw;
+    background-color: #ddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Skills h2 {
+    font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+    font-size: 3.2rem;
+    margin: 10px;
+}
+.Skills p {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.Skills ul { 
+    padding: 0; 
+    list-style-type: none; 
+}

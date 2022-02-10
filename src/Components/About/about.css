@@ -1,0 +1,93 @@
+.About {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 0 0 20px 0;
+}
+.About h2 {
+    font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+    font-size: 3.2rem;
+    margin: 10px 0 0 0;
+}
+.About h3 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2.2rem;
+    margin: 0;
+    color: #4b5b66;
+}
+.About h4 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.8rem;
+    margin: 0;
+    color: black;
+}
+
+.AboutWrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.AboutImage {
+    position: relative;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+}
+.AboutContent {
+    position: relative;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.AboutImage img {
+    position: relative;
+    width: 300px;
+    height: 360px;
+    max-width: 50vw;
+    max-height: calc(50vw * 1.2);
+}
+
+.AboutContent p {
+    width: 80%;
+}
+
+.LangsIcons {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.LangsIconsRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5px auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .AboutWrapper {
+        flex-direction: column;
+    }
+    .AboutImage {
+        width: 90vw;
+    }
+    .AboutContent {
+        width: 90vw;
+        margin: 0 auto;
+    }
+    .AboutContent p {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+    
+    .AboutImage img {
+        width: 200px;
+        height: 240px;
+        max-width: 80vw;
+        max-height: calc(80vw * 1.2);
+    }
+}

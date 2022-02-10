@@ -1,0 +1,123 @@
+.Home {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 50px 0;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #eeee;
+}
+
+.HomeTitle {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.HomeInfo {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.HomeInfo h1 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 3.6rem;
+    margin: 0;
+}
+.HomeInfo h2 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2.4rem;
+    margin: 0;
+    color: #4b5b66;
+}
+.HomeInfoParagraph {
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: left;
+}
+
+.HomeImage {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.HomeImagePlaceholder {
+    width: 42vw;
+    height: 28vw;
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.HomeImagePlaceholderMobile {
+    width: 75vw;
+    height: 50vw;
+    max-width: 300px;
+    max-height: 200px;
+    margin: 0 auto;
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .Home {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .HomeImage {
+        width: 100%;
+        padding: 10px;
+    }
+    .HomeImagePlaceholder {
+        width: 60vw;
+        height: 40vw;
+        max-width: 600px;
+        max-height: 400px;
+    }
+    /*
+    .HomeImagePlaceholderMobile {
+        display: block;
+    } */
+    .HomeInfo {
+        width: 90vw;
+        max-width: 700px;
+        padding: 10px;
+    }
+    .HomeInfoParagraph {
+        max-width: 700px;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .HomeInfo h2 {
+        font-family: 'Catamaran', sans-serif;
+        font-size: 2rem;
+        padding: 10px;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    .HomeInfo h1 {
+        font-size: 2.8rem;
+    }
+    .HomeInfo h2 {
+        font-size: 1.6rem;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    .HomeInfo h1 {
+        font-size: 2.2rem;
+    }
+    .HomeTitle {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,148 @@
+.Header {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-sizing: border-box;
+    background-color: white;
+    transition: 0.3s;
+    border-bottom: 2px solid black;
+}
+
+.Logo a {
+    text-decoration: none;
+    color: black;
+}
+.MenuDropdown a {
+    text-decoration: none;
+    color: white;
+}
+.Menu a {
+    text-decoration: none;
+    color: black;
+    width: 25%;
+}
+
+.hide {
+    display: none;
+}
+
+.Logo {
+    position: absolute;
+    left: 50px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Logo img {
+    height: 40px;
+    width: 40px;
+}
+.Logo p {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.4rem;
+    margin: 0;
+    font-weight: bold;
+}
+.HeaderJobTag {
+    padding-left: 20px;
+    color: #ad0303;
+}
+
+.Menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    right: 50px;
+    width: 400px;
+}
+.Menu p {
+    cursor: pointer;
+}
+.Menu p:hover {
+    font-weight: bold;
+}
+
+.LandingMenuIcon {
+    display: none;
+}
+
+/* show menu icon */
+@media only screen and (max-width: 1000px) {
+
+    .Menu {
+        display: none;
+    }
+
+    .MenuIcon {
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        right: 40px;
+    }
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    /* Rotate first bar */
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+        transform: rotate(-45deg) translate(-9px, 6px) ;
+    }
+    
+    /* Fade out the second bar */
+    .change .bar2 {
+        opacity: 0;
+    }
+    
+    /* Rotate last bar */
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+        transform: rotate(45deg) translate(-8px, -8px) ;
+    }
+    .MenuDropdown {
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        background-color: #343f4b;
+        color: white;
+        min-width: 160px;
+        padding: 12px 16px;
+        z-index: 5;
+        border: 1px solid #1f2933;
+    }
+    .MenuDropdown p {
+        cursor: pointer;
+        font-family: "ApexRegular", Arial, Helvetica, sans-serif;
+    }
+    .MenuDropdown p:hover {
+        font-weight: bold;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+    .Logo {
+        left: 20px;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    .HeaderJobTag {
+        display: none;
+    }
+    .MenuDropdown {
+        width: 100vw;
+    }
+}
