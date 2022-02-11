@@ -1,5 +1,6 @@
 import './about.css';
-import TestAboutImg from '../../Assets/TestAboutImg.jpg';
+// import TestAboutImg from '../../Assets/TestAboutImg.jpg';
+import Avatar from '../../Assets/Avatar.png';
 import ActionButton from '../ActionButton/actionButton';
 
 import htmlLogo from '../../Assets/html.png';
@@ -22,7 +23,7 @@ const About = () => {
             <h3>Let me introduce myself.</h3>
             <div className="AboutWrapper">
                 <div className="AboutImage">
-                    <img src={TestAboutImg} alt=""/>
+                    <img src={Avatar} alt=""/>
                 </div>
                 <div className="AboutContent">
                     <p>

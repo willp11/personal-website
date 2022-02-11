@@ -6,13 +6,12 @@
     border-radius: 20px;
     box-shadow: 2px 1px 1px #36454f;
     cursor: pointer;
-    background-color: #ad0303;
+    background-color: #da1212;
     color: white;
+    font-weight: bold;
 }
 
 .ActionButton:hover {
-    color: #ad0303;
-    background-color: white;
+    background-color: #11468f;
     transition: 0.3s;
-    font-weight: bold;
 }
