@@ -41,7 +41,7 @@ const About = () => {
                         Solana smart contracts with Rust. 
                         Ideally, I am looking for a full-time permanent position within an amazing organisation. My goal is to work with interesting people to create exciting new products!
                     </p>
-                    <p>For more information, please read my <a href="/">resume</a>.</p>
+                    <p>For more information, please read my <a href="/William-Page-cv.pdf"><p>Resume</p></a>.</p>
                 </div>
             </div>
             <div className="SkillsSummary">

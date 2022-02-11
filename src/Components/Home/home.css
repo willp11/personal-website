@@ -100,9 +100,15 @@
 
 /* Mobile */
 @media only screen and (max-width: 480px) {
+    .HomeInfo {
+        padding: 0;
+    }
+    .HomeImage {
+        padding: 0;
+    }
     .HomeImagePlaceholder {
-        width: 90vw;
-        height: 60vw;
+        width: 82.5vw;
+        height: 55vw;
         max-width: 600px;
         max-height: 400px;
     }
@@ -111,7 +117,7 @@
     }
     .HomeInfo h2 {
         font-size: 1.8rem;
-        padding: 5px;
+        padding: 0;
     }
 }
 

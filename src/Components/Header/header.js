@@ -32,7 +32,7 @@ const Header = () => {
         if (prevScrollpos > currentScrollPos) {
             document.getElementById("navbar").style.top = "0";
         } else {
-            document.getElementById("navbar").style.top = "-85px";
+            document.getElementById("navbar").style.top = "-50px";
         }
         prevScrollpos = currentScrollPos;
     }
@@ -56,7 +56,7 @@ const Header = () => {
             </div>
             <div className="MenuDropdown hide">
                 <Link to="/"><p>Home</p></Link>
-                <a href="/"><p>Resume</p></a>
+                <a href="/William-Page-cv.pdf"><p>Resume</p></a>
                 <Link to="/blog"><p>Blog</p></Link>
                 <a href="https://github.com/willp11" target="_blank" rel="noreferrer"><p>Github</p></a>
             </div>
