@@ -1,0 +1,20 @@
+.NotFound {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.NotFound h1 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 5.2rem;
+    margin: 0;
+}
+
+.NotFound h2 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 3.2rem;
+    margin: 0;
+    color: #11468f;
+}

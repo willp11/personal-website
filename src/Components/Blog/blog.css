@@ -2,5 +2,29 @@
     position: relative;
     width: 100vw;
     min-height: 100vh;
-    padding-top: 50px;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.Blog h1 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 3.6rem;
+    margin: 0;
+}
+
+.ComingSoon {
+    width: 500px;
+    height: 500px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .ComingSoon {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .Blog h1 {
+        font-size: 3rem;
+    }
 }
