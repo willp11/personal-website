@@ -9,9 +9,9 @@
     left: 0;
     z-index: 10;
     box-sizing: border-box;
-    background-color: #eeeeee;
+    background-color: #DBF3FA;
     transition: 0.3s;
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid #11468f
 }
 
 .Logo a {
@@ -45,7 +45,7 @@
     width: 40px;
 }
 .Logo p {
-    font-family: 'Catamaran', sans-serif;
+    font-family: BogartBold, 'Catamaran', sans-serif;
     font-size: 1.4rem;
     margin: 0;
     font-weight: bold;

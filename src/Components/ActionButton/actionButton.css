@@ -8,7 +8,8 @@
     cursor: pointer;
     background-color: #da1212;
     color: white;
-    font-weight: bold;
+    font-family: BogartBold;
+    /* font-weight: bold; */
 }
 
 .ActionButton:hover {
