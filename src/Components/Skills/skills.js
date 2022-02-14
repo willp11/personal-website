@@ -33,8 +33,8 @@ const Skills = () => {
                     skill: "CSS",
                     description: [
                         "Strong knowledge of CSS3.",
-                        "Creates responsive websites using flexbox and grid.",
-                        "Can create websites to perfectly match any design passed on from a design team."
+                        "Can create beautiful and responsive websites.",
+                        "Ability to create websites following wireframes passed on from a design team."
                     ]
                 },
                 {
@@ -46,7 +46,7 @@ const Skills = () => {
                         "Strong knowledge of all React hooks.",
                         "Comfortable using Redux for state management.",
                         "Experienced using Jest for testing",
-                        "Other third-party libraries; React-router for URL routing, React-lottie for animations, React-reveal for reveal animation."
+                        "Experienced using third-party libraries, such as; React Router, React Lottie, React reveal. "
                     ]
                 }
             ]

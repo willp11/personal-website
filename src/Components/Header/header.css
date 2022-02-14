@@ -9,14 +9,13 @@
     left: 0;
     z-index: 10;
     box-sizing: border-box;
-    background-color: #DBF3FA;
+    background-color: #11468f;
     transition: 0.3s;
-    border-bottom: 3px solid #11468f
 }
 
 .Logo a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .MenuDropdown a {
     text-decoration: none;
@@ -24,7 +23,7 @@
 }
 .Menu a {
     text-decoration: none;
-    color: black;
+    color: white;
     width: 25%;
 }
 
@@ -90,7 +89,7 @@
     .bar1, .bar2, .bar3 {
         width: 35px;
         height: 5px;
-        background-color: black;
+        background-color: white;
         margin: 6px 0;
         transition: 0.4s;
     }
@@ -120,11 +119,11 @@
         padding: 12px 16px;
         z-index: 5;
         font-weight: bold;
-        border: 1px solid #1f2933;
+        /* border: 1px solid #1f2933; */
     }
     .MenuDropdown p {
         cursor: pointer;
-        font-family: "ApexRegular", Arial, Helvetica, sans-serif;
+        font-family: BogartBold, "ApexRegular", Arial, Helvetica, sans-serif;
     }
     .MenuDropdown p:hover {
         font-weight: bold;
