@@ -44,7 +44,7 @@ const About = () => {
                     <p>For more information, please read my <a href="/William-Page-cv.pdf">Resume</a>.</p>
                 </div>
             </div>
-            <div className="SkillsSummary">
+            {/* <div className="SkillsSummary">
                 <h4>Technologies</h4>
                 <div className="LangsIcons">
                     <div className="LangsIconsRow">
@@ -65,7 +65,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <a href="#Skills"><ActionButton content="My Skills"/></a>
+            <a href="#Skills"><ActionButton content="My Skills"/></a> */}
         </div>
     );
 }

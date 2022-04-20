@@ -1,18 +1,18 @@
 .ActionButton {
     text-align: center;
-    font-size: 1.2rem;
-    padding: 10px;
+    font-size: 1.6rem;
+    padding: 10px 20px;
     margin-top: 20px;
     border-radius: 20px;
     box-shadow: 2px 1px 1px #36454f;
     cursor: pointer;
     background-color: #da1212;
     color: white;
-    font-family: BogartBold;
-    /* font-weight: bold; */
+    font-family: 'Bebas Neue', 'Catamaran', sans-serif;
 }
 
 .ActionButton:hover {
-    background-color: #11468f;
+    background-color: #9AF58A;
     transition: 0.3s;
+    color: #002E7A;
 }

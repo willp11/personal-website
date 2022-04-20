@@ -5,3 +5,15 @@
 .App p {
   font-family: 'Roboto', Arial, sans-serif;
 }
+
+.App h1 {
+  font-family: 'Bebas Neue', 'Catamaran', sans-serif;
+}
+
+.App h2 {
+  font-family: 'Bebas Neue', 'Catamaran', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
