@@ -113,7 +113,7 @@
         position: absolute;
         top: 49px;
         right: 0px;
-        background-color: #11468f;
+        background-color: #004FB6;
         color: white;
         min-width: 160px;
         padding: 12px 16px;
@@ -123,10 +123,8 @@
     }
     .MenuDropdown p {
         cursor: pointer;
-        font-family: BogartBold, "ApexRegular", Arial, Helvetica, sans-serif;
-    }
-    .MenuDropdown p:hover {
-        font-weight: bold;
+        font-family: 'Bebas Neue', "ApexRegular", Arial, Helvetica, sans-serif;
+        font-size: 1.4rem;
     }
 }
 
