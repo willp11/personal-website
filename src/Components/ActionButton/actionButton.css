@@ -1,12 +1,11 @@
 .ActionButton {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     padding: 10px 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 20px;
-    box-shadow: 2px 1px 1px #36454f;
     cursor: pointer;
-    background-color: #da1212;
+    background-color: #009ffd; 
     color: white;
     font-family: 'Bebas Neue', 'Catamaran', sans-serif;
 }

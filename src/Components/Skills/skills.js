@@ -18,14 +18,52 @@ const Skills = () => {
 
     const skills = [
         {
+            title: "Back-end",
+            skills: [
+                {
+                    image: {src: djangoLogo, height: "30px", width: "30px"},
+                    skill: "Django",
+                    description: [
+                        "Django is my preferred Python framework.",
+                        "Can build both REST APIs and monolithic web applications using Django.",
+                        "Strong understanding of all areas of the Django framework and related libraries including Django REST Framework.",
+                        "Experienced using dj-rest-auth and allauth for user authentication."
+                    ]
+                },
+                {
+                    image: {src: flaskLogo, height: "30px", width: "30px"},
+                    skill: "Flask",
+                    description: [
+                        "Can build REST APIs using Flask and related libraries.",
+                        "Experienced with Flask-migrate for database migrations.",  
+                        "Flask SQLAlchemy for object-relational mapping.", 
+                        "Flask Login for user authentication."
+                    ]
+                }
+            ]
+        },
+        {
             title: "Front-end",
             skills: [
+                {
+                    image: {src: reactLogo, height: "30px", width: "35px"},
+                    skill: "React JS",
+                    description: [
+                        "Over 2 years experience with React JS.",
+                        "Can write both function-based and class-based components.",
+                        "Solid understanding of all React hooks.",
+                        "Knowledge of app optimization with effective use of useCallback and useMemo.",
+                        "Experienced using Redux for state management.",
+                        "Experienced using Jest for testing."
+                    ]
+                },
                 {
                     image: {src: htmlLogo, height: "30px", width: "30px"},
                     skill: "HTML",
                     description: [
-                        "Very strong knowledge of HTML5.",
-                        "Structures web pages effectively, in order to boost SEO rankings and provide accessibility to all users."
+                        "Strong knowledge of HTML5.",
+                        "Good understanding of how to structure web pages effectively.",
+                        "Knowledge of using HTML to help boost SEO ranking."
                     ]
                 },
                 {
@@ -35,43 +73,6 @@ const Skills = () => {
                         "Strong knowledge of CSS3.",
                         "Can create beautiful and responsive websites.",
                         "Ability to create websites following wireframes passed on from a design team."
-                    ]
-                },
-                {
-                    image: {src: reactLogo, height: "30px", width: "35px"},
-                    skill: "React JS",
-                    description: [
-                        "Over 2 years experience using React JS.",
-                        "Experienced with both class-based and functional components.",
-                        "Strong knowledge of all React hooks.",
-                        "Comfortable using Redux for state management.",
-                        "Experienced using Jest for testing",
-                        "Experienced using third-party libraries, such as; React Router, React Lottie, React reveal. "
-                    ]
-                }
-            ]
-        },
-        {
-            title: "Back-end Web Frameworks",
-            skills: [
-                {
-                    image: {src: flaskLogo, height: "30px", width: "30px"},
-                    skill: "Flask",
-                    description: [
-                        "Implement high quality web applications and REST APIs.",
-                        "Use Flask and related libraries to create models, views and routes.",
-                        "Flask-migrate for database migrations.",  
-                        "Flask SQLAlchemy for object-relational mapping.", 
-                        "Flask Login for session management."
-                    ]
-                },
-                {
-                    image: {src: djangoLogo, height: "30px", width: "30px"},
-                    skill: "Django",
-                    description: [
-                        "Implement high quality web applications and REST APIs.",
-                        "Use Django and the Django REST framework to create models, views, routes, serializers and unit tests.",
-                        "FactoryBoy for database model factories."
                     ]
                 }
             ]
@@ -83,31 +84,14 @@ const Skills = () => {
                     image: {src: mysqlLogo, height: "25px", width: "45px"},
                     skill: "MySQL",
                     description: [
-                        "Ability to design and implement relational databases using MySQL.", 
-                        "Experienced using MySQL Shell and Workbench."
+                        "Can effectively implement relational databases using MySQL."
                     ]
                 },
                 {
                     image: {src: postgresqlLogo, height: "30px", width: "30px"},
                     skill: "PostgreSQL",
                     description: [
-                        "Ability to design and implement relational databases using PostgreSQL."
-                    ]
-                }
-            ]
-        },
-        {
-            title: "Web3 / Smart contracts",
-            skills: [
-                {
-                    image: {src: solanaLogo, height: "30px", width: "30px"},
-                    skill: "Solana",
-                    description: [
-                        "Strong knowledge of the inner workings of the Solana blockchain and it's accounts model.",
-                        "Ability to write Solana on-chain programs, using both pure-Rust and Anchor framework.",
-                        "Experienced deploying custom Solana programs to devnet and mainnet.",
-                        "Experienced deploying Metaplex Candy-machine to devnet and mainnet.",
-                        "Comfortable with Solana libraries, including; web3/js, spl-token and spl-metadata."
+                        "Can effectively implement relational databases using PostgreSQL."
                     ]
                 }
             ]
@@ -119,12 +103,28 @@ const Skills = () => {
                     image: {src: gitLogo, height: "30px", width: "30px"},
                     skill: "Git",
                     description: [
-                        "Very experienced using Git for version control and CI/CD within teams of developers.",
+                        "Very experienced using Git for version control.",
                         "Comfortable creating branches, pull requests, merging and all other main functionality found within Git."
                     ]
                 }
             ]
         },
+        {
+            title: "Web3 / Smart contracts",
+            skills: [
+                {
+                    image: {src: solanaLogo, height: "30px", width: "30px"},
+                    skill: "Solana",
+                    description: [
+                        "Strong knowledge of the Solana blockchain architecture.",
+                        "Ability to write Solana on-chain programs, using both pure-Rust and Anchor framework.",
+                        "Experienced deploying custom Solana programs to devnet and mainnet.",
+                        "Experienced deploying Metaplex Candy-machine to devnet and mainnet.",
+                        "Comfortable with Solana libraries, including; web3/js, spl-token and spl-metadata."
+                    ]
+                }
+            ]
+        }
     ]
 
     const skillsBoards = skills.map((board) => {
@@ -134,7 +134,7 @@ const Skills = () => {
             );
         });
         return (
-            <Fade bottom key={board.title}>
+            <Fade left key={board.title}>
                 <SkillBoard title={board.title} skills={skillsDiv} key={board.title}/>
             </Fade>
         )

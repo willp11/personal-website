@@ -41,7 +41,6 @@ const Header = () => {
         <header className="Header" id="navbar">
             <div className="Logo">
                 <Link to="/"><p>William Page</p></Link>
-                {/* <p className="HeaderJobTag">Software Developer</p> */}
             </div>
             <div className="Menu">
                 <Link to="/"><p>Home</p></Link>

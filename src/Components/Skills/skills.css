@@ -1,11 +1,11 @@
 .Skills {
     width: 100vw;
-    /* background-color: white; */
-    background-color: rgba(0, 159, 253, 0.6);
+    background-color: black;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .Skills h2 {
+    color: #ffa034;
     font-size: 3.2rem;
     margin: 10px;
 }

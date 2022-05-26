@@ -9,48 +9,39 @@
 
 .Home {
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
     padding: 50px 0;
     position: relative;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-image: url(/src/Assets/computer_bg_2.jpg);
-    background-size: cover;
+    background: black;
+    overflow: hidden;
 }
-
-.HomeTitle {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-}
-
 .HomeInfo {
     width: 45%;
     box-sizing: border-box;
     padding: 20px;
 }
 .HomeInfo h1 {
-    font-size: 5.2rem;
+    font-size: 4.2rem;
     margin: 50px 0 0 0;
-    color: #009ffd;
+    color: #ffa034;
     margin-top: 50px;
 }
 .HomeInfo h2 {
-    font-size: 4rem;
+    font-size: 4.4rem;
     margin: 0;
-    color: #009ffd;
-}
-.HomeInfoParagraph {
-    margin: 20px auto;
-    max-width: 500px;
-    text-align: left;
+    color: #AD51B4;
 }
 
-#Name {
-    padding-left: 20px;
+.HomeImg {
+    width: 55%;
+}
+
+.HomeImg img {
+    width: 80%;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -58,15 +49,8 @@
         flex-direction: column-reverse;
         justify-content: center;
     }
-    .HomeImage {
-        width: 100%;
-        padding: 10px;
-    }
-    .HomeImagePlaceholder {
-        width: 60vw;
-        height: 40vw;
-        max-width: 450px;
-        max-height: 300px;
+    .HomeImg {
+        width: 40%;
     }
 
     .HomeInfo {
@@ -74,24 +58,27 @@
         max-width: 700px;
         padding: 10px;
     }
-    .HomeInfoParagraph {
-        max-width: 700px;
-        font-size: 0.9rem;
+    .HomeInfo h1 {
+        font-size: 3.8rem;
+        margin: 0;
     }
 
     .HomeInfo h2 {
-        font-size: 3.6rem;
+        font-size: 4rem;
         padding: 10px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .HomeInfo h1 {
-        font-size: 4.2rem;
+        font-size: 3.6rem;
     }
     .HomeInfo h2 {
-        font-size: 3.2rem;
+        font-size: 3.8rem;
         padding: 10px;
+    }
+    .HomeImg {
+        width: 50%;
     }
 }
 
@@ -100,21 +87,15 @@
     .HomeInfo {
         padding: 0;
     }
-    .HomeImage {
-        padding: 0;
-    }
-    .HomeImagePlaceholder {
-        width: 82.5vw;
-        height: 55vw;
-        max-width: 600px;
-        max-height: 400px;
-    }
     .HomeInfo h1 {
-        font-size: 3.8rem;
+        font-size: 3.2rem;
     }
     .HomeInfo h2 {
-        font-size: 3rem;
+        font-size: 3.4rem;
         padding: 0;
+    }
+    .HomeImg {
+        width: 65%;
     }
 }
 
@@ -123,11 +104,8 @@
     .HomeInfo h1 {
         font-size: 3.2rem;
     }
-    .HomeTitle {
-        flex-direction: column;
+    .HomeInfo h2 {
+        font-size: 3rem;
     }
     
-    #Name {
-        padding-left: 0;
-    }
 }

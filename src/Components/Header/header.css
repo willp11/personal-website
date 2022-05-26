@@ -1,6 +1,6 @@
 .Header {
     width: 100vw;
-    height: 50px;
+    height: 60px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -9,14 +9,14 @@
     left: 0;
     z-index: 10;
     box-sizing: border-box;
-    background-color: #009ffd;
+    background-color: black;
     transition: 0.3s;
     border-bottom: 2px solid black;
 }
 
 .Logo a {
     text-decoration: none;
-    color: #F9F871;
+    color: white;
 }
 .MenuDropdown a {
     text-decoration: none;
@@ -61,7 +61,7 @@
 }
 .Menu p {
     cursor: pointer;
-    color: #0E2624;
+    color: white;
     font-family: 'Bebas Neue', 'Catamaran', sans-serif;
     font-size: 1.6rem;
 }
@@ -137,9 +137,6 @@
 
 /* Mobile */
 @media only screen and (max-width: 480px) {
-    .HeaderJobTag {
-        display: none;
-    }
     .MenuDropdown {
         width: 100vw;
     }
