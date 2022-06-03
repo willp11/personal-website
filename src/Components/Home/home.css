@@ -23,6 +23,10 @@
     width: 45%;
     box-sizing: border-box;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .HomeInfo h1 {
     font-size: 4.2rem;
@@ -42,6 +46,39 @@
 
 .HomeImg img {
     width: 80%;
+}
+
+
+#logo1 {
+    margin-bottom: 5px;
+}
+#logo1 path {
+    stroke: #ffa034;
+    fill: transparent;
+    stroke-dasharray: 1569;
+    stroke-dashoffset: 1569;
+    animation: line-anim-orange 8s ease forwards 1s; 
+}
+#logo2 path {
+    stroke: #AD51B4;
+    fill: transparent;
+    stroke-dasharray: 3333;
+    stroke-dashoffset: 3333;
+    animation: line-anim-purple 8s ease forwards 2s;
+}
+
+@keyframes line-anim-orange {
+    to {
+        stroke-dashoffset: 0;
+        fill: #ffa034;
+    }
+}
+
+@keyframes line-anim-purple {
+    to {
+        stroke-dashoffset: 0;
+        fill: #AD51B4;
+    }
 }
 
 @media only screen and (max-width: 1080px) {
@@ -97,7 +134,15 @@
     .HomeImg {
         width: 65%;
     }
+    #logo1 {
+        width: 200px;
+    }
+    #logo2 {
+        width: 360px;
+    }
 }
+
+
 
 @media only screen and (max-width: 400px) {
 
@@ -107,5 +152,10 @@
     .HomeInfo h2 {
         font-size: 3rem;
     }
-    
+    #logo1 {
+        width: 180px;
+    }
+    #logo2 {
+        width: 320px;
+    }
 }
