@@ -7,14 +7,21 @@
 }
 
 .Blog h1 {
-    font-family: 'Catamaran', sans-serif;
-    font-size: 3.6rem;
-    margin: 0;
+    font-size: 4.2rem;
+    margin-top: 50px;
 }
 
 .ComingSoon {
     width: 500px;
     height: 500px;
+}
+
+.Article {
+    padding: 5px;
+    border: 1px solid grey;
+    margin: 10px auto;
+    width: 90vw;
+    max-width: 800px;
 }
 
 
